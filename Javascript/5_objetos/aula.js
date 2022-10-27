@@ -25,10 +25,8 @@ function compararPessoas(p1,p2) {
     }
 };
 
-const vitor = new Pessoa('Vitor',30);
-const renan = new Pessoa('Renan',30); 
-
-compararPessoas(vitor,renan);
+const vitor = new Pessoa('Vitor',25);
+const renan = new Pessoa('renan',30)    
 
 
 
