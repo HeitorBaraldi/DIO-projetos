@@ -45,9 +45,3 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
-
-chooseByType()
-
-chooseByTypeButton.addEventListener('click', () => {
-
-}
