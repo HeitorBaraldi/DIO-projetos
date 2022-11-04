@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Desafio Multiplos</title>
+</head>
+<body>
+      <div>
+      <input type="number" id="a" placeholder="Digite um número">a</input>
+      <input type="number" id="N" placeholder="Digite outro número">N</input>
+      <button onclick=calculate_sum()>Soma de multiplos</button>
+      </div>
+
+      <script>
+            let a = document.getElementById(a);
+            let N = document.getElementById(N);
+            // Javascript program to find sum
+            // of multiples of a number
+            // up to N efficiently
+             
+            // Function for calculating sum
+            // of multiples of a upto N
+            function calculate_sum(a, N)
+            {
+                 
+                // Number of multiples
+                m = N / a;
+             
+                // Sum of first m
+                // natural numbers
+                sum = m * (m + 1) / 2;
+             
+                // Sum of multiples
+                ans = a * sum;
+             
+                return ans;
+            }
+             
+            // Driver code
+
+             
+            document.write("Sum of multiples of "+ a +
+                           " up to " + N + " = " +
+                           calculate_sum(a, N));
+             
+            // This code is contributed by mohan1240760
+             
+            </script>
+</body>
+
+</html>
