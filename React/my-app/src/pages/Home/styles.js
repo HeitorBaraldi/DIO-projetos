@@ -16,7 +16,7 @@ export const Title = styled.h2`
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  width: 320px
+  width: 320px;
   margin-bottom: 20px;
   line-height: 44px;
 
