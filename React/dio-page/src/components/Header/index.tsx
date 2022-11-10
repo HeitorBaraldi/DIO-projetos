@@ -1,11 +1,9 @@
-import React from 'react'
 import logo from '../../assets/logo-dio.png';
-
 import { Button } from '../Button';
-
 import { Container, Wrapper, BuscarInputContainer, Input, Row, Menu, MenuRight, UserPicture} from './styles';
+import { IHeader } from './types';
 
-const Header = ({autenticado}) => {
+const Header = ({autenticado}:IHeader) => {
   return (
     <Wrapper>
       <Container>
@@ -23,7 +21,7 @@ const Header = ({autenticado}) => {
           </Row>
           <Row>
               {autenticado ? (
-                <UserPicture src="https://avatars.githubusercontent.com/u/45184516?v=4"/>
+                <UserPicture src="https://miro.medium.com/max/1400/1*g09N-jl7JtVjVZGcd-vL2g.jpeg"/>
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
