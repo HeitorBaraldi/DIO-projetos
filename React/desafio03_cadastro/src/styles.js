@@ -1,3 +1,4 @@
+// Styles-Components
 import styled from 'styled-components';
 
 export const Container = styled.main`
@@ -5,7 +6,6 @@ export const Container = styled.main`
     max-width: 80%;
     margin: 0 auto;
     margin-top: 120px;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,27 +13,18 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 65%;
-    flex-direction: flex-end;
-    justify-content: flex-end;
-    align-items: flex-end;    
+    max-width: 70%;
 `
 
 export const Column = styled.div`
-    flex:1;
+    flex: 1;
 `
-export const ColumnD = styled.div`
-    flex:1;
-    
-`
-
-
 
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 20px;
 `
 
 export const Title = styled.h2`
@@ -44,11 +35,10 @@ export const Title = styled.h2`
     max-width: 90%;
     margin-bottom: 20px;
     line-height: 44px;
-
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
+export const TitleCadastro = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -57,7 +47,7 @@ export const TitleLogin = styled.p`
     margin-bottom: 8px;
 `
 
-export const SubtitleLogin = styled.p`
+export const SubtitleCadastro = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -66,32 +56,22 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
-export const EsqueciText = styled.p`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 18px;
-    line-height: 25px;
-    margin-top: 20px;
-`
-export const ContaText =  styled.p`
+export const EsqueciText  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    margin-top: 20px;
-
-    color: #ffffff;
-`
+    color: #fff;
+    margin: 20px 0;
+` 
 
 export const CriarText =  styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
-    margin-top: 20px;
-    margin-left:5px;
-
     color: #23DD7A;
+    margin: 0;
 `
