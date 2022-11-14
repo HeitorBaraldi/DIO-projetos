@@ -5,7 +5,7 @@ export const Container = styled.main`
     max-width: 80%;
     margin: 0 auto;
     margin-top: 120px;
-
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,22 +13,28 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 65%;
+    flex-direction: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;    
 `
 
 export const Column = styled.div`
-    flex: 1;
+    flex:1;
 `
+export const ColumnD = styled.div`
+    flex:1;
+    
+`
+
+
 
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 `
-
-
 
 export const Title = styled.h2`
     font-family: 'Open Sans';
@@ -60,16 +66,23 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
-
-export const EsqueciText  = styled.p`
+export const EsqueciText = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+`
+export const ContaText =  styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    margin-top: 20px;
 
-    color: #E5E044;
-` 
+    color: #ffffff;
+`
 
 export const CriarText =  styled.p`
     font-family: 'Open Sans';
@@ -77,6 +90,8 @@ export const CriarText =  styled.p`
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    margin-top: 20px;
+    margin-left:5px;
 
     color: #23DD7A;
 `

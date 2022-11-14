@@ -9,7 +9,7 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     color: #FFFFFF;
     padding: 2px 12px;
     min-width: 120px;
-    width: 100%;
+    width: 80%;
     
     ${({variant}) => variant !== "primary" && css`
         min-width: 167px;

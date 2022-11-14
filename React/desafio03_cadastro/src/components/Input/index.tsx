@@ -1,5 +1,4 @@
 import { Controller } from "react-hook-form";
-
 import {InputContainer, InputText, IconContainer } from './styles';
 import { IInput } from './types';
 

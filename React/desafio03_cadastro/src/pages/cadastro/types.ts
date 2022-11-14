@@ -1,5 +1,5 @@
 export interface IFormData {
-      nome:string;
+      name:string;
       email:string;
       senha:string;
 }

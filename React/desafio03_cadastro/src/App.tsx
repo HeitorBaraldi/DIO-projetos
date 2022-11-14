@@ -4,7 +4,8 @@ import {
   Route,
 } from "react-router-dom";
 
-import { Login } from './pages/login'
+import { Cadastro } from './pages/cadastro'
+
 import { GlobalStyle } from './styles/global';
 
 function App() {
@@ -12,8 +13,7 @@ function App() {
     <Router>
      <GlobalStyle />
      <Routes>
-        <Route path="/login" element={<Login />} />
-
+        <Route path="/cadastro" element={<Cadastro />} />
      </Routes >
     </Router>
   );

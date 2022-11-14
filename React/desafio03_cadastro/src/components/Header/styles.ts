@@ -3,7 +3,7 @@ import styled  from 'styled-components';
 export const Container = styled.div`
    
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
     height: 47px;
 
     display: flex;
@@ -16,6 +16,9 @@ export const Row = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
+    button {
+        margin-left:15px;
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -56,13 +59,6 @@ export const MenuRight = styled.a`
     color: #FFFFFF;
     margin-right: 12px;
     text-decoration: none;
-`
-
-export const UserPicture = styled.img`
-    width: 32px;
-    height: 32px;
-    border-radius: 22px;
-    border: 3px solid #FFFFFF;
 `
 
 export const Input = styled.input`
